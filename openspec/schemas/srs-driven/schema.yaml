@@ -73,7 +73,7 @@ artifacts:
       | Complex           | While <precondition>, when <trigger>, the <system> SHALL <response>.  | Both state and event required  |
       | Optional          | Where <feature is included>, the <system> SHALL <response>.           | Optional/configurable behavior |
 
-      **Escape hatch:** When a requirement has >3 preconditions or is mathematical/tabular,
+      **Escape hatch:** When a requirement has more than 3 preconditions or is mathematical/tabular,
       it MAY use decision tables, lists, or other formats. The requirement MUST include a
       justification for why EARS is insufficient.
 
@@ -125,7 +125,7 @@ artifacts:
     description: Technical implementation approach with architecture decisions and operational concerns
     template: design.md
     instruction: |
-      Create the design document that explains HOW to implement the change.
+      Create the design document that explains **HOW** to implement the change.
 
       When to include design.md (create only if any apply):
       - Cross-cutting change (multiple services/modules) or new architectural pattern
@@ -164,7 +164,7 @@ artifacts:
       Reference the proposal for motivation and specs for requirements.
       Focus on architecture and approach, not line-by-line implementation.
 
-      Good design docs explain the "why" behind technical decisions.
+      Good design docs explain the **"why"** behind technical decisions.
     requires:
       - proposal
 
@@ -183,7 +183,7 @@ artifacts:
       - Each task MUST be a checkbox: `- [ ] X.Y Task description`
       - Tasks should be small enough to complete in one session
       - Order tasks by dependency (what must be done first?)
-      - When a task is completed, document what changes where made and why they were made to accomplish the task section
+      - When a task is completed, document what changes where made and **why** they were made to accomplish the task section
 
       Example:
       ```

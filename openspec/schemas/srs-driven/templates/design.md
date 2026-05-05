@@ -28,10 +28,10 @@
 <!-- Purpose and responsibility of each component -->
 
 ### System Invariant Tactics
-<!-- How system invariants from the proposal are maintained -->
+<!-- **How** system invariants from the proposal are maintained. Be specific and detail oriented. -->
 
 ### Quality Attribute Tactics
-<!-- Architectural tactics for achieving quality attribute targets -->
+<!-- Architectural tactics for achieving quality attribute targets; **How** targets are ensured. -->
 
 ### Interaction Protocols
 <!-- How components communicate: APIs, events, protocols. What rules and invariants must hold for communication to work correctly? -->
@@ -53,7 +53,7 @@
 ### Decision: <!-- title -->
 
 - **Context and Objective:** <!-- What situation drives this decision? -->
-- **Quality Attribute Tactics and Key Results:** <!-- Which quality attributes does this address? -->
+- **Quality Attribute Tactics and Key Results:** <!-- Which quality attributes does this address? How does it address them? -->
 - **Options Considered:**
   <!-- - Option A: description, pros, cons -->
   <!-- - Option B: description, pros, cons -->
