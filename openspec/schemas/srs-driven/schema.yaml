@@ -116,7 +116,7 @@ artifacts:
       conditions, and failure modes documented in proposal.md and design.md MUST be
       captured as requirements or scenarios in spec files.
 
-      All requirements and scenarios MUST be testable.
+      **All requirements and scenarios MUST be testable.**
     requires:
       - proposal
 

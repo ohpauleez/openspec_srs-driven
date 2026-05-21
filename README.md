@@ -10,6 +10,9 @@ with a few changes:
 * The `tasks.md` file records what changed and why upon marking a task as complete, creating an audit trail
 * The `spec.md` file uses an EARS format for writing specs instead of Given-When-Then; Specs are "tagged" for traceability in code and tests
 
+The format changes are expanded over the defaults, covering more edge cases and design space, to drive agents towards a more specified, stable outcome.
+The expanded scope of the documents focuses more on core invariants, validation/verification, and tracks when gaps in the spec caused implementation drift.
+
 ### Installation
 
 Copy the `srs-driven` directory into your `openspecs/schemas` directory.
