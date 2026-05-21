@@ -1,10 +1,10 @@
 <!-- EARS Pattern Reference:
-     Ubiquitous:        The <system> SHALL <response>.
-     State-driven:      While <precondition>, the <system> SHALL <response>.
-     Event-driven:      When <trigger>, the <system> SHALL <response>.
-     Unwanted-behavior: If <trigger>, then the <system> SHALL <response>.
-     Complex:           While <precondition>, when <trigger>, the <system> SHALL <response>.
-     Optional:          Where <feature is included>, the <system> SHALL <response>.
+     Ubiquitous:        THE <system> SHALL <response>.
+     State-driven:      WHILE <precondition>, THE <system> SHALL <response>.
+     Event-driven:      WHEN <trigger>, THE <system> SHALL <response>.
+     Unwanted-behavior: IF <trigger>, THEN THE <system> SHALL <response>.
+     Complex:           WHILE <precondition>, WHEN <trigger>, THE <system> SHALL <response>.
+     Optional:          WHERE <feature is included>, THE <system> SHALL <response>.
 
      RFC 2119: SHALL/MUST = absolute requirement, SHOULD = recommended, MAY = optional.
 
@@ -28,7 +28,7 @@
 
 #### Scenario: <!-- failure case name --> [<!-- DOMAIN-FAIL-ID -->]
 <!-- Use Unwanted-behavior pattern for failure scenarios -->
-If <!-- undesired trigger or error condition -->, then the <!-- system --> SHALL <!-- recovery/mitigation response -->.
+IF <!-- undesired trigger or error condition -->, THEN THE <!-- system --> SHALL <!-- recovery/mitigation response -->.
 
 **Postcondition:** <!-- what must be true after this failure scenario -->
 
