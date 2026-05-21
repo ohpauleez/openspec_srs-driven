@@ -183,7 +183,11 @@ artifacts:
       - Each task MUST be a checkbox: `- [ ] X.Y Task description`
       - Tasks should be small enough to complete in one session
       - Order tasks by dependency (what must be done first?)
-      - When a task is completed, document what changes where made and **why** they were made to accomplish the task section
+      - When a task is completed, document the following criteria
+        - WHAT changes where made
+        - **WHY** they were made to accomplish the task section
+        - Decisions made that weren't in the spec
+        - Important information to pass on to other developers
 
       Example:
       ```

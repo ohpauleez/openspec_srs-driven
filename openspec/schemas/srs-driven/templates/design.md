@@ -48,7 +48,8 @@
 ## Architecture Decisions
 
 <!-- Use this section instead of Proposed Design when the change involves
-     multiple independent decisions. Repeat the block below for each decision. -->
+     multiple independent decisions. This is most common with an update to an existing spec or "delta spec".
+     Repeat the block below for each decision. -->
 
 ### Decision: <!-- title -->
 
