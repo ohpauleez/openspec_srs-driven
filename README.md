@@ -15,8 +15,13 @@ The expanded scope of the documents focuses more on core invariants, validation/
 
 ### Installation
 
-Copy the `srs-driven` directory into your `openspecs/schemas` directory.
+Copy the `srs-driven` directory into the `openspec/schemas` directory within your project.
 See [OpenSpec Customization](https://github.com/Fission-AI/OpenSpec/blob/main/docs/customization.md) docs for more details.
+
+Then update your project's `openspec/config.yaml` with:
+```
+schema: srs-driven
+```
 
 ### Further suggestions
 
