@@ -131,6 +131,7 @@ artifacts:
       - Cross-cutting change (multiple services/modules) or new architectural pattern
       - New external dependency or significant data model changes
       - Security, performance, or migration complexity
+      - A change to the state machine design or failure modes of the system
       - Ambiguity that benefits from technical decisions before coding
 
       The design MUST use either the **Proposed Design** approach (holistic design
@@ -148,7 +149,7 @@ artifacts:
       - **Architecture Decisions** (if ADR-style):
         - Each decision: Context and Objective, Quality Attribute Tactics and
           Key Results, Options Considered, Decision, Consequences.
-      - **Component Design** (REQUIRED): Key Components, Data Design, Interface Contracts, Code Map.
+      - **Component Design** (REQUIRED): Key Components, Data Design (including all encoding and validity rules), Interface Contracts, Code Map.
       - **Failure and Reliability** (REQUIRED):
         - Failure Mode Analysis: Systematically consider unsafe inputs, inadequate
           control actions, process model flaws, and coordination failures.
