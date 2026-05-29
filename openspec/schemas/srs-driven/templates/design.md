@@ -67,7 +67,7 @@
 <!-- Detailed design of significant components -->
 
 ### Data Design
-<!-- Data models, storage, schemas, migrations -->
+<!-- Data models, storage, schemas, encoding formats, data validation rules, migrations -->
 
 ### Interface Contracts
 <!-- API contracts, message formats, protocol details -->
@@ -80,6 +80,7 @@
 ### Failure Mode Analysis
 <!-- Systematically consider:
      - Unsafe inputs: What invalid or malicious inputs could cause harm?
+     - Fragile formats: How is data encoded and what happens if an invalid byte is found?
      - Inadequate control actions: What control actions could fail or be insufficient?
      - Process model flaws: Where could the system's internal model diverge from reality?
      - Coordination failures: Where could timing, ordering, or concurrency cause issues? -->
