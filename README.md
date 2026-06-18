@@ -1,5 +1,5 @@
 
-SRS-drive OpenSpec schema
+SRS-driven OpenSpec schema
 =========================
 
 This [OpenSpec](https://github.com/Fission-AI/OpenSpec) schema is an extension of the default `spec-driven` schema
