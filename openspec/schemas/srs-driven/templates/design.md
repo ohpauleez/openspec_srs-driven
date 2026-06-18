@@ -64,10 +64,10 @@
 ## Component Design
 
 ### Key Components
-<!-- Detailed design of significant logical components -->
+<!-- Detailed design of significant logical components. Use Mermaid state diagrams to document how each component works. -->
 
 ### Data Design
-<!-- Data models, storage, schemas, encoding formats, data validation rules, migrations -->
+<!-- Data models, storage, schemas, encoding formats, data validation rules, migrations. Use textual descriptions along with lists, tables, and mermaid diagrams. -->
 
 ### Interface Contracts
 <!-- API contracts, message formats, protocol details -->
@@ -116,7 +116,7 @@
 ## Verification Strategy
 
 <!-- How to verify the design meets spec requirements.
-     Testing approach, integration tests, load tests, property-based tests, etc. -->
+     Testing approach, unit tests, integration tests, load tests, property-based tests, etc. -->
 
 ## Open Questions
 

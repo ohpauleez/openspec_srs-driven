@@ -39,13 +39,17 @@
 <!-- Preconditions: What must be true before this change can take effect?
      Postconditions: What must be true after this change is complete?
      Invariants: What must remain true at all times during and after this change?
-     Collectively, what must be true for this system to be correct? -->
+     Collectively, what must be true for this system to be correct?
+
+     Organize this section with subsections for each Capability, and a top-level `### Global` section that applies across all capabilities -->
 
 ## Failure Modes
 
 <!-- Document failure modes that shape the product experience or core functionality.
      Each failure mode must include a rationale explaining why it matters.
      Focus on product-level failures, not implementation-level errors.
+
+     Organize this section with subsections for each Capability, and a top-level `### Global` section that applies across all capabilities
 
      Format:
      - **<Failure mode name>**: <Description>
