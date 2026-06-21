@@ -64,14 +64,14 @@ artifacts:
       ALL requirements and scenarios MUST use EARS (Easy Approach to Requirements Syntax)
       with RFC 2119 keywords (SHALL/MUST, SHOULD, MAY):
 
-      | Pattern           | Template                                                              | When to use                    |
-      |-------------------|-----------------------------------------------------------------------|--------------------------------|
-      | Ubiquitous        | THE <system> SHALL <response>.                                        | Always active                  |
-      | State-driven      | WHILE <precondition>, THE <system> SHALL <response>.                  | Active in a continuous state   |
-      | Event-driven      | WHEN <trigger>, THE <system> SHALL <response>.                        | Discrete event causes behavior |
-      | Unwanted-behavior | IF <trigger>, THEN THE <system> SHALL <response>.                     | Error/failure mitigation       |
-      | Complex           | WHILE <precondition>, WHEN <trigger>, THE <system> SHALL <response>.  | Both state and event required  |
-      | Optional          | WHERE <feature is included>, THE <system> SHALL <response>.           | Optional/configurable behavior |
+      | Pattern           | Template                                                              | When to use                                  |
+      |-------------------|-----------------------------------------------------------------------|----------------------------------------------|
+      | Ubiquitous        | THE <system> SHALL <response>.                                        | Always active                                |
+      | State-driven      | WHILE <precondition>, THE <system> SHALL <response>.                  | Active in a continuous state                 |
+      | Event-driven      | WHEN <trigger>, THE <system> SHALL <response>.                        | Discrete event causes behavior               |
+      | Unwanted-behavior | IF <trigger>, THEN THE <system> SHALL <response>.                     | Error handling, failure response, edge cases |
+      | Complex           | WHILE <precondition>, WHEN <trigger>, THE <system> SHALL <response>.  | Both state and event required                |
+      | Optional          | WHERE <feature is included>, THE <system> SHALL <response>.           | Optional/configurable behavior               |
 
       **Escape hatch:** When a requirement has more than 3 preconditions or is mathematical/tabular,
       it MAY use decision tables, lists, or other formats. The requirement MUST include a
