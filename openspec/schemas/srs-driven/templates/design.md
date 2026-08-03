@@ -40,7 +40,7 @@
 <!-- How this design accommodates future changes and extensions -->
 
 ### Costs
-<!-- Resource, infrastructure, or operational cost implications -->
+<!-- Resource, infrastructure, or operational cost implications.  How do costs grow as usage increases? -->
 
 ### Alternatives Considered
 <!-- Other approaches evaluated and why they were rejected -->
