@@ -136,7 +136,7 @@ artifacts:
 
       The design MUST use either the **Proposed Design** approach (holistic design
       for a single coherent change) OR the **Architecture Decisions** approach
-      (ADR-style for multiple independent decisions). Remove the unused section.
+      (ADR-style for multiple independent decisions, for a smaller delta change). Remove the unused section.
 
       Required sections (follow the template):
 
@@ -164,6 +164,8 @@ artifacts:
 
       Reference the proposal for motivation and specs for requirements.
       Focus on architecture and approach, not line-by-line implementation.
+
+      The design document MUST only use Simple Technical English (the ASD-STE100 specification).
 
       Good design docs explain the **"why"** behind technical decisions.
     requires:
