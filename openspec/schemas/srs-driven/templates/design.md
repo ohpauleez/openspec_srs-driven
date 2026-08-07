@@ -16,7 +16,7 @@
 <!-- ============================================================
      Choose ONE of the following two sections and DELETE the other:
      - "Proposed Design" for a single coherent design
-     - "Architecture Decisions" for multiple independent decisions
+     - "Architecture Decisions" for multiple independent decisions, common for smaller delta changes
      ============================================================ -->
 
 ## Proposed Design
