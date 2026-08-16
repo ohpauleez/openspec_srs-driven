@@ -165,7 +165,8 @@ artifacts:
       Reference the proposal for motivation and specs for requirements.
       Focus on architecture and approach, not line-by-line implementation.
 
-      The design document MUST only use Simple Technical English (the ASD-STE100 specification).
+      The design document MUST only use STE-flavored Simplified Technical English.
+      Use short, active sentences and one main idea per sentence. Use one term for each concept. Avoid semicolons, dense noun groups, and unnecessary jargon. Preserve technical identifiers and necessary formal-method terms.
 
       Good design docs explain the **"why"** behind technical decisions.
     requires:
